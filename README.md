@@ -28,8 +28,7 @@ This project demonstrates how to:
 
 ```bash
 project-root/
-├── config.py                    # Configuration file with API URLs and Azure keys
-├── API _to_ADLS.ipynb              # Script to extract data from APIs and convert to DataFrame         # List of Python dependencies
+├── API _to_ADLS.ipynb              # Script to extract data from APIs and convert to DataFrame AND upload to ADLS
 └── README.md                    # Project documentation
 ```
 
@@ -42,17 +41,6 @@ project-root/
    python API _to_ADLS.ipynb
    ```
 
-## 🔐 Azure Configuration
-
-* Go to your Azure Storage account.
-* Navigate to **Access Keys** and copy **key1**.
-* Set it in your `config.py` like so:
-
-```python
-AZURE_STORAGE_ACCOUNT_NAME = "your_account_name"
-AZURE_STORAGE_ACCOUNT_KEY = "your_account_key"
-CONTAINER_NAME = "your_container_name"
-```
 
 ## ✍️ Author
 
