@@ -29,22 +29,17 @@ This project demonstrates how to:
 ```bash
 project-root/
 ├── config.py                    # Configuration file with API URLs and Azure keys
-├── API _to_ADLS.py              # Script to extract data from APIs and convert to DataFrame         # List of Python dependencies
+├── API _to_ADLS.ipynb              # Script to extract data from APIs and convert to DataFrame         # List of Python dependencies
 └── README.md                    # Project documentation
 ```
 
 ## ⚙️ Usage
 
 1. Configure your Azure Storage credentials in `config.py`.
-2. Run the data extraction script:
+2. Run the data extraction script & Upload the resulting CSV to ADLS:
 
    ```bash
-   python extract_data.py
-   ```
-3. Upload the resulting CSV to ADLS:
-
-   ```bash
-   python upload_to_adls.py
+   python API _to_ADLS.ipynb
    ```
 
 ## 🔐 Azure Configuration
